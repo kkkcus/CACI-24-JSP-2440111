@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.post-header {
+    margin-bottom: 20px;
+}
+
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-content {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.post-actions {
+    margin-top: 20px;
+}
+
+.delete-btn, .back-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover, .back-btn:hover {
+    opacity: 0.9;
+}
